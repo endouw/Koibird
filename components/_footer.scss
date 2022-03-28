@@ -1,0 +1,90 @@
+// FOOTER
+footer {
+    background: #e0ff04;
+    padding: 60px 0 72px 0;
+    margin-top: 50px;
+    .footer {
+      &__content {
+        &__logo {
+          user-select: none;
+          img {
+            width: 200px;
+          }
+        }
+        &__menu {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+          margin-top: 53px;
+          display: flex;
+          li {
+            &:not(:last-child) {
+              margin-right: 20px;
+            }
+            a {
+              color: #000;
+              text-decoration: none;
+              font-size: 16px;
+              text-transform: uppercase;
+            }
+          }
+        }
+      }
+      &__newsletter {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        h3 {
+          margin: 0;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 19px;
+          letter-spacing: 0.07em;
+          color: #000000;
+          text-transform: uppercase;
+        }
+        form {
+          display: flex;
+          flex-direction: column;
+          input[type="email"] {
+            max-width: 532px;
+            height: 45px;
+            border: none;
+            padding: 0 20px;
+            font-size: 16px;
+            color: #000;
+            font-weight: normal;
+            margin-top: 12px;
+          }
+          .form__group {
+            margin-top: 13px;
+            margin-bottom: 9px;
+            display: flex;
+            align-items: center;
+            input[type="checkbox"] {
+              border: none;
+              height: 15px;
+              width: 15px;
+              margin-right: 12px;
+            }
+            label {
+              font-style: normal;
+              font-weight: normal;
+              font-size: 12px;
+              line-height: 14px;
+              letter-spacing: 0.07em;
+            }
+          }
+          button[type="submit"] {
+            background: transparent;
+            border: none;
+            text-align: left;
+            padding: 0;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+  
